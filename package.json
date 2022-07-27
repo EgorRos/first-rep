@@ -1,0 +1,23 @@
+{
+  "name": "blazrobarpsd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EgorRos/first-rep.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EgorRos/first-rep/issues"
+  },
+  "homepage": "https://github.com/EgorRos/first-rep#readme",
+  "dependencies": {
+    "sass": "^1.54.0"
+  }
+}
