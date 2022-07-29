@@ -339,8 +339,11 @@ template {
 
 .content-photo {
   display: grid;
+  grid-template-columns: 1;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-row-gap: 0;
+}
+.content-photo_item {
+  background-size: 100% auto;
 }
 .content-photo_item:nth-child(2) {
   background: url("/src/img/mohammad-rahmani-cY1SvvEfRwk-unsplash.jpg") no-repeat;
