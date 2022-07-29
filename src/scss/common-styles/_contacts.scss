@@ -1,0 +1,14 @@
+.contacts {
+    
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+    &_title{
+        background-color: #27212c;
+        color: #897a97;
+        font-family: 'Montserrat', sans-serif;
+    }
+    &_button{
+        background-color: #ffc400;
+    }
+}

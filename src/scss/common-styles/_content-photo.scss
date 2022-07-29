@@ -1,5 +1,15 @@
 .content-photo {
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 0;
     &_item{
+        &:nth-child(2){
+            background: url('/src/img/mohammad-rahmani-cY1SvvEfRwk-unsplash.jpg') no-repeat;
+        }
+        &:nth-child(3){
+            background: url('/src/img/umberto-deb2EnbWPr8-unsplash.jpg') no-repeat;
+        }
 
     }
 }
